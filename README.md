@@ -1,0 +1,1 @@
+# natron_templates
