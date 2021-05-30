@@ -6735,7 +6735,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000000e+00</Value>
+					<Value>1.00000000000000002e-03</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -6778,7 +6778,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000000e+00</Value>
+					<Value>1.00000000000000002e-03</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -7228,17 +7228,24 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<HasAnimation>1</HasAnimation>
 					<Curve>
 						<KeyFrameSet>
-							<count>4</count>
+							<count>5</count>
 							<item_version>0</item_version>
 							<item>
 								<Time>2.50000000000000000e+02</Time>
 								<Value>1.00000000000000000e+00</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>-1.00000000000000006e-01</RightDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 							<item>
 								<Time>2.60000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>2</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>2.61000000000000000e+02</Time>
 								<Value>0.00000000000000000e+00</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
@@ -7260,7 +7267,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000000e+00</Value>
+					<Value>0.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -7271,17 +7278,24 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<HasAnimation>1</HasAnimation>
 					<Curve>
 						<KeyFrameSet>
-							<count>4</count>
+							<count>5</count>
 							<item_version>0</item_version>
 							<item>
 								<Time>2.50000000000000000e+02</Time>
 								<Value>1.00000000000000000e+00</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>-9.09158289432525635e-02</RightDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 							<item>
 								<Time>2.60000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>2</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>2.61000000000000000e+02</Time>
 								<Value>9.08417105674743652e-02</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
@@ -7303,7 +7317,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000000e+00</Value>
+					<Value>9.08417105674743652e-02</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -7466,7 +7480,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>119</KnobsAge>
+			<KnobsAge>149</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -7529,7 +7543,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<HasAnimation>1</HasAnimation>
 					<Curve>
 						<KeyFrameSet>
-							<count>4</count>
+							<count>7</count>
 							<item_version>0</item_version>
 							<item>
 								<Time>6.50000000000000000e+01</Time>
@@ -7540,6 +7554,27 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 							<item>
 								<Time>1.00000000000000000e+02</Time>
+								<Value>1.00000000000000006e-01</Value>
+								<InterpolationMethod>2</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>2.50000000000000000e+02</Time>
+								<Value>1.00000000000000006e-01</Value>
+								<InterpolationMethod>2</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>2.60000000000000000e+02</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>2</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>2.75000000000000000e+02</Time>
 								<Value>1.00000000000000006e-01</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
@@ -7637,7 +7672,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<second>Rectangle2</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>152</KnobsAge>
+			<KnobsAge>159</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -9879,7 +9914,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>7.62769727999999986e+02</Value>
+					<Value>1.08350496000000021e+03</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -9950,7 +9985,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.30002367999999990e+02</Value>
+					<Value>1.49000000000000000e+02</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11037,7 +11072,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000002e-03</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11080,7 +11115,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000002e-03</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11202,7 +11237,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>29</KnobsCount>
+			<KnobsCount>31</KnobsCount>
 			<item>
 				<Name>encodingPluginChoice</Name>
 				<Type>Choice</Type>
@@ -11251,7 +11286,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(suscribete_banner.mp4)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(suscribete_banner.mov)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11358,7 +11393,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>/natron_templates/suscribete/suscribete_banner.mp4</Value>
+					<Value>/natron_templates/suscribete/suscribete_banner.mov</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11486,31 +11521,13 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>5</Value>
+					<Value>4</Value>
 					<Default>0</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
 					<ExprHasRet>0</ExprHasRet>
 				</item>
-				<ChoiceLabel>mp4</ChoiceLabel>
-				<UserKnob>0</UserKnob>
-			</item>
-			<item>
-				<Name>codec</Name>
-				<Type>Choice</Type>
-				<Dimension>1</Dimension>
-				<Secret>0</Secret>
-				<MasterIsAlias>0</MasterIsAlias>
-				<item>
-					<Enabled>1</Enabled>
-					<HasAnimation>0</HasAnimation>
-					<Value>42</Value>
-					<Default>0</Default>
-					<HasMaster>0</HasMaster>
-					<Expression></Expression>
-					<ExprHasRet>0</ExprHasRet>
-				</item>
-				<ChoiceLabel>libx265</ChoiceLabel>
+				<ChoiceLabel>mov</ChoiceLabel>
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
@@ -11522,7 +11539,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<item>
 					<Enabled>0</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>libx265</Value>
+					<Value>prores_ksap4h</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11545,6 +11562,41 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<HasAnimation>0</HasAnimation>
 					<Value>6.00000000000000000e+01</Value>
 					<Default>2.40000000000000000e+01</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>prefPixelCoding</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>yuv420</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>enableAlpha</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
 					<ExprHasRet>0</ExprHasRet>
@@ -11606,21 +11658,39 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
-				<Name>x26xSpeed</Name>
+				<Name>crf</Name>
 				<Type>Choice</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
-					<Enabled>1</Enabled>
+					<Enabled>0</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>0</Value>
+					<Value>2</Value>
 					<Default>4</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
 					<ExprHasRet>0</ExprHasRet>
 				</item>
-				<ChoiceLabel>ultrafast</ChoiceLabel>
+				<ChoiceLabel>crf17</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>x26xSpeed</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>4</Value>
+					<Default>4</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>medium</ChoiceLabel>
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
@@ -11670,7 +11740,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<Name>bitrateMbps</Name>
 				<Type>Double</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -11742,7 +11812,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<second>Merge1</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>47</KnobsAge>
+			<KnobsAge>104</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -11830,7 +11900,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>Sat May 29 16:53:48 2021</Value>
+			<Value>Sat May 29 22:59:12 2021</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -11906,7 +11976,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 			<Name></Name>
 		</item>
 	</AdditionalFormats>
-	<Timeline_current_time>214</Timeline_current_time>
+	<Timeline_current_time>396</Timeline_current_time>
 	<CreationDate>1621259908504</CreationDate>
 </Project>
 <ProjectGui class_id="20" tracking_level="0" version="12">
@@ -12889,7 +12959,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<Orientation>1</Orientation>
 				<ChildIsSplitter>1</ChildIsSplitter>
 				<Child object_id="_1">
-					<Sizes>510 510</Sizes>
+					<Sizes>678 300</Sizes>
 					<Orientation>2</Orientation>
 					<ChildIsSplitter>0</ChildIsSplitter>
 					<Child class_id="26" tracking_level="1" version="5" object_id="_2">
@@ -12905,11 +12975,12 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<ChildIsSplitter>0</ChildIsSplitter>
 					<Child object_id="_3">
 						<Tabs>
-							<count>3</count>
+							<count>4</count>
 							<item_version>0</item_version>
 							<item>nodeGraph</item>
 							<item>curveEditor</item>
 							<item>dopeSheetEditor</item>
+							<item>progress</item>
 						</Tabs>
 						<Index>0</Index>
 						<Name>pane3</Name>
@@ -12929,10 +13000,10 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				</Child>
 			</Child>
 			<MainWindow>1</MainWindow>
-			<x>1919</x>
+			<x>0</x>
 			<y>0</y>
 			<w>1920</w>
-			<h>1051</h>
+			<h>1009</h>
 		</Window>
 	</Gui_Layout>
 	<ViewersData class_id="28" tracking_level="0" version="0">
@@ -12941,9 +13012,9 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item class_id="29" tracking_level="0" version="0">
 			<first>Viewer1</first>
 			<second class_id="30" tracking_level="0" version="14">
-				<zoomLeft>-1.03408695652173878e+03</zoomLeft>
-				<zoomBottom>-2.16000000000000227e+01</zoomBottom>
-				<zoomFactor>3.07158119658119733e-01</zoomFactor>
+				<zoomLeft>3.59057659603467300e+02</zoomLeft>
+				<zoomBottom>6.69286734500379481e+01</zoomBottom>
+				<zoomFactor>1.13615118117102698e+00</zoomFactor>
 				<UserRoIEnabled>0</UserRoIEnabled>
 				<UserRoI class_id="31" tracking_level="0" version="0">
 					<Left>4.80000000000000000e+02</Left>
@@ -12961,7 +13032,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<Channels>RGB</Channels>
 				<RenderScaleActivated>0</RenderScaleActivated>
 				<MipMapLevel>0</MipMapLevel>
-				<ZoomOrPanSinceFit>0</ZoomOrPanSinceFit>
+				<ZoomOrPanSinceFit>1</ZoomOrPanSinceFit>
 				<CompositingOP>0</CompositingOP>
 				<LeftBound>0</LeftBound>
 				<RightBound>600</RightBound>
@@ -12973,7 +13044,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<InfobarVisible>1</InfobarVisible>
 				<isInputAPaused>0</isInputAPaused>
 				<isInputBPaused>0</isInputBPaused>
-				<CheckerboardEnabled>0</CheckerboardEnabled>
+				<CheckerboardEnabled>1</CheckerboardEnabled>
 				<Fps>6.00000000000000000e+01</Fps>
 				<FpsLocked>0</FpsLocked>
 				<aInput>0</aInput>
@@ -12987,14 +13058,15 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item_version>0</item_version>
 	</Histograms>
 	<OpenedPanels>
-		<count>7</count>
+		<count>8</count>
 		<item_version>0</item_version>
 		<item>Write1</item>
+		<item>Rectangle2</item>
+		<item>Transform5</item>
+		<item>Transform1_2</item>
+		<item>Merge1</item>
 		<item>Rectangle1</item>
 		<item>Rectangle3</item>
-		<item>Rectangle2</item>
-		<item>Merge1</item>
-		<item>Transform5</item>
 		<item>Natron_Project_Settings_Panel</item>
 	</OpenedPanels>
 	<ScriptEditorInput></ScriptEditorInput>
