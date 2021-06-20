@@ -11,7 +11,7 @@
 	<OS>Linux</OS>
 	<Bits>64</Bits>
 	<NodesCollection class_id="1" tracking_level="0" version="1">
-		<NodesCount>25</NodesCount>
+		<NodesCount>30</NodesCount>
 		<item class_id="2" tracking_level="0" version="15">
 			<Plugin_label>Viewer1</Plugin_label>
 			<Plugin_script_name>Viewer1</Plugin_script_name>
@@ -260,7 +260,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>847</KnobsAge>
+			<KnobsAge>855</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -545,7 +545,7 @@
 				<item_version>0</item_version>
 				<item>
 					<first>A</first>
-					<second>Glow2</second>
+					<second>Merge2</second>
 				</item>
 				<item>
 					<first>A10</first>
@@ -641,7 +641,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>2.00000000000000000e+01</Value>
+					<Value>4.60300000000000011e+02</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -650,7 +650,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>2.80000000000000000e+01</Value>
+					<Value>4.67500000000000000e+02</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -667,7 +667,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>1.08000000000000000e+03</Value>
+					<Value>2.00000000000000000e+02</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -676,7 +676,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>1.08000000000000000e+03</Value>
+					<Value>2.00000000000000000e+02</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -743,7 +743,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>34</KnobsAge>
+			<KnobsAge>78</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -778,7 +778,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>4.00000000000000000e+01</Value>
+					<Value>3.95000000000000000e+01</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -787,7 +787,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>-3.23800000000000011e+02</Value>
+					<Value>-3.22300000000000011e+02</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -806,39 +806,53 @@
 					<HasAnimation>1</HasAnimation>
 					<Curve>
 						<KeyFrameSet>
-							<count>4</count>
+							<count>6</count>
 							<item_version>0</item_version>
 							<item>
-								<Time>6.50000000000000000e+01</Time>
-								<Value>0.00000000000000000e+00</Value>
-								<InterpolationMethod>2</InterpolationMethod>
+								<Time>0.00000000000000000e+00</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>4.28571428571428593e-03</RightDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>6.50000000000000000e+01</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>2.85428571428571441e-02</RightDerivative>
 							</item>
 							<item>
 								<Time>1.00000000000000000e+02</Time>
-								<Value>1.49999999999999994e-01</Value>
-								<InterpolationMethod>2</InterpolationMethod>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>2.85428571428571441e-02</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>3.96000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
 								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 							<item>
 								<Time>5.20000000000000000e+02</Time>
-								<Value>1.49999999999999994e-01</Value>
-								<InterpolationMethod>2</InterpolationMethod>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+								<RightDerivative>-1.24875000000000003e-02</RightDerivative>
 							</item>
 							<item>
 								<Time>6.00000000000000000e+02</Time>
 								<Value>1.00000000000000002e-03</Value>
-								<InterpolationMethod>2</InterpolationMethod>
-								<LeftDerivative>-2.79374999999999979e-03</LeftDerivative>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>-1.24875000000000003e-02</LeftDerivative>
 								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.49999999999999994e-01</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -849,39 +863,53 @@
 					<HasAnimation>1</HasAnimation>
 					<Curve>
 						<KeyFrameSet>
-							<count>4</count>
+							<count>6</count>
 							<item_version>0</item_version>
 							<item>
-								<Time>6.50000000000000000e+01</Time>
-								<Value>0.00000000000000000e+00</Value>
-								<InterpolationMethod>2</InterpolationMethod>
+								<Time>0.00000000000000000e+00</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>4.28571428571428593e-03</RightDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>6.50000000000000000e+01</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>2.85428571428571441e-02</RightDerivative>
 							</item>
 							<item>
 								<Time>1.00000000000000000e+02</Time>
-								<Value>1.49999999999999994e-01</Value>
-								<InterpolationMethod>2</InterpolationMethod>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>2.85428571428571441e-02</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>3.96000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
 								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 							<item>
 								<Time>5.20000000000000000e+02</Time>
-								<Value>1.49999999999999994e-01</Value>
-								<InterpolationMethod>2</InterpolationMethod>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+								<RightDerivative>-1.24875000000000003e-02</RightDerivative>
 							</item>
 							<item>
 								<Time>6.00000000000000000e+02</Time>
 								<Value>1.00000000000000002e-03</Value>
-								<InterpolationMethod>2</InterpolationMethod>
-								<LeftDerivative>-2.79374999999999979e-03</LeftDerivative>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>-1.24875000000000003e-02</LeftDerivative>
 								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.49999999999999994e-01</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -915,7 +943,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>5.60000000000000000e+02</Value>
+					<Value>5.59600000000000023e+02</Value>
 					<Default>5.00000000000000000e-01</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -924,7 +952,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>5.68000000000000000e+02</Value>
+					<Value>5.67600000000000023e+02</Value>
 					<Default>5.00000000000000000e-01</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -961,7 +989,7 @@
 					<second>Radial2</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>66</KnobsAge>
+			<KnobsAge>104</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -6735,7 +6763,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000002e-03</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -6778,7 +6806,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000002e-03</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -7267,7 +7295,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>0.00000000000000000e+00</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -7317,7 +7345,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>9.08417105674743652e-02</Value>
+					<Value>1.00000000000000000e+00</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -8475,14 +8503,21 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<HasAnimation>1</HasAnimation>
 					<Curve>
 						<KeyFrameSet>
-							<count>7</count>
+							<count>8</count>
 							<item_version>0</item_version>
 							<item>
-								<Time>6.50000000000000000e+01</Time>
-								<Value>1.00000000000000002e-02</Value>
+								<Time>0.00000000000000000e+00</Time>
+								<Value>1.00000000000000002e-03</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>2.82857142857142856e-02</RightDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>6.50000000000000000e+01</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>2</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 							<item>
 								<Time>1.00000000000000000e+02</Time>
@@ -8539,14 +8574,21 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<HasAnimation>1</HasAnimation>
 					<Curve>
 						<KeyFrameSet>
-							<count>7</count>
+							<count>8</count>
 							<item_version>0</item_version>
 							<item>
-								<Time>6.50000000000000000e+01</Time>
-								<Value>1.00000000000000002e-02</Value>
+								<Time>0.00000000000000000e+00</Time>
+								<Value>1.00000000000000002e-03</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>2.82857142857142856e-02</RightDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>6.50000000000000000e+01</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>2</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
 							</item>
 							<item>
 								<Time>1.00000000000000000e+02</Time>
@@ -8904,7 +8946,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>707</KnobsAge>
+			<KnobsAge>711</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -9857,11 +9899,11 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							<count>8</count>
 							<item_version>0</item_version>
 							<item>
-								<Time>1.00000000000000000e+02</Time>
+								<Time>2.00000000000000000e+02</Time>
 								<Value>7.43000000000000000e+02</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>1.46666666666666667e-01</RightDerivative>
+								<RightDerivative>6.60000000000000031e-01</RightDerivative>
 							</item>
 							<item>
 								<Time>2.50000000000000000e+02</Time>
@@ -9914,7 +9956,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.08350496000000021e+03</Value>
+					<Value>7.62326999999999998e+02</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -9928,11 +9970,11 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							<count>8</count>
 							<item_version>0</item_version>
 							<item>
-								<Time>1.00000000000000000e+02</Time>
+								<Time>2.00000000000000000e+02</Time>
 								<Value>-9.00000000000000000e+01</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>2.39000000000000012e+00</RightDerivative>
+								<RightDerivative>7.16999999999999993e+00</RightDerivative>
 							</item>
 							<item>
 								<Time>2.50000000000000000e+02</Time>
@@ -9985,7 +10027,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.49000000000000000e+02</Value>
+					<Value>1.19961500000000001e+02</Value>
 					<Default>0.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -10082,7 +10124,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<second>Read2</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>996</KnobsAge>
+			<KnobsAge>1003</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -11044,10 +11086,10 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							<item_version>0</item_version>
 							<item>
 								<Time>2.60000000000000000e+02</Time>
-								<Value>1.00000000000000002e-03</Value>
+								<Value>1.00000000000000002e-02</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>9.99000000000000027e-02</RightDerivative>
+								<RightDerivative>9.90000000000000047e-02</RightDerivative>
 							</item>
 							<item>
 								<Time>2.75000000000000000e+02</Time>
@@ -11072,7 +11114,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000000e+00</Value>
+					<Value>1.00000000000000002e-02</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11087,10 +11129,10 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							<item_version>0</item_version>
 							<item>
 								<Time>2.60000000000000000e+02</Time>
-								<Value>1.00000000000000002e-03</Value>
+								<Value>1.00000000000000002e-02</Value>
 								<InterpolationMethod>2</InterpolationMethod>
 								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
-								<RightDerivative>9.99000000000000027e-02</RightDerivative>
+								<RightDerivative>9.90000000000000047e-02</RightDerivative>
 							</item>
 							<item>
 								<Time>2.75000000000000000e+02</Time>
@@ -11115,7 +11157,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 							</item>
 						</KeyFrameSet>
 					</Curve>
-					<Value>1.00000000000000000e+00</Value>
+					<Value>1.00000000000000002e-02</Value>
 					<Default>1.00000000000000000e+00</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -11212,7 +11254,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<second>PulgarArriba_2</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>346</KnobsAge>
+			<KnobsAge>348</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -11577,13 +11619,13 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>0</Value>
+					<Value>2</Value>
 					<Default>1</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
 					<ExprHasRet>0</ExprHasRet>
 				</item>
-				<ChoiceLabel>yuv420</ChoiceLabel>
+				<ChoiceLabel>yuv444</ChoiceLabel>
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
@@ -11812,7 +11854,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<second>Merge1</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>104</KnobsAge>
+			<KnobsAge>105</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -11828,6 +11870,1454 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<item_version>2</item_version>
 			</UserComponents>
 			<CacheID>Write1</CacheID>
+		</item>
+		<item>
+			<Plugin_label>Read4</Plugin_label>
+			<Plugin_script_name>Read4</Plugin_script_name>
+			<Plugin_id>fr.inria.built-in.Read</Plugin_id>
+			<PythonModule></PythonModule>
+			<PythonModuleVersion>0</PythonModuleVersion>
+			<Plugin_major_version>1</Plugin_major_version>
+			<Plugin_minor_version>0</Plugin_minor_version>
+			<KnobsCount>20</KnobsCount>
+			<item>
+				<Name>decodingPluginChoice</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>Default</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>decodingPluginID</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>fr.inria.openfx.ReadOIIO</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>userTextArea</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(avatar.jpg)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>filename</Name>
+				<Type>InputFile</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>/home/freemind/src/natron_templates/suscribete/avatar.jpg</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>firstFrame</Name>
+				<Type>Int</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>lastFrame</Name>
+				<Type>Int</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>startingTime</Name>
+				<Type>Int</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>timeOffset</Name>
+				<Type>Int</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>proxyThreshold</Name>
+				<Type>Double</Type>
+				<Dimension>2</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1.00000000000000000e+00</Value>
+					<Default>1.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1.00000000000000000e+00</Value>
+					<Default>1.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>customProxyScale</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>filePremult</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>opaque</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>outputPremult</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>opaque</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>outputComponents</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>RGB</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>frameRate</Name>
+				<Type>Double</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>2.40000000000000000e+01</Value>
+					<Default>2.40000000000000000e+01</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>ParamExistingInstance</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>outputLayerChoice</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>Color.RGB</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>edgePixels</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>auto</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>offsetNegativeDispWindow</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>ocioInputSpace</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>sRGB</Value>
+					<Default>scene_linear</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>ocioOutputSpace</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>scene_linear</Value>
+					<Default>scene_linear</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<Inputs_map>
+				<count>0</count>
+				<item_version>0</item_version>
+			</Inputs_map>
+			<KnobsAge>1</KnobsAge>
+			<MasterNode></MasterNode>
+			<HasRotoContext>0</HasRotoContext>
+			<HasTrackerContext>0</HasTrackerContext>
+			<MultiInstanceParent></MultiInstanceParent>
+			<UserPagesCount>0</UserPagesCount>
+			<PagesCount>3</PagesCount>
+			<name>Controls</name>
+			<name>Node</name>
+			<name>Info</name>
+			<Children>0</Children>
+			<UserComponents>
+				<count>0</count>
+				<item_version>2</item_version>
+			</UserComponents>
+			<CacheID>Read4</CacheID>
+		</item>
+		<item>
+			<Plugin_label>Merge2</Plugin_label>
+			<Plugin_script_name>Merge2</Plugin_script_name>
+			<Plugin_id>net.sf.openfx.MergePlugin</Plugin_id>
+			<PythonModule></PythonModule>
+			<PythonModuleVersion>0</PythonModuleVersion>
+			<Plugin_major_version>1</Plugin_major_version>
+			<Plugin_minor_version>0</Plugin_minor_version>
+			<KnobsCount>4</KnobsCount>
+			<item>
+				<Name>userTextArea</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(over)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>B_channels</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>uk.co.thefoundry.OfxImagePlaneColour</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>A_channels</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>uk.co.thefoundry.OfxImagePlaneColour</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>enableMask_Mask</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<Inputs_map>
+				<count>3</count>
+				<item_version>0</item_version>
+				<item>
+					<first>A</first>
+					<second>Transform12</second>
+				</item>
+				<item>
+					<first>B</first>
+					<second>Glow2</second>
+				</item>
+				<item>
+					<first>Mask</first>
+					<second>Transform3</second>
+				</item>
+			</Inputs_map>
+			<KnobsAge>0</KnobsAge>
+			<MasterNode></MasterNode>
+			<HasRotoContext>0</HasRotoContext>
+			<HasTrackerContext>0</HasTrackerContext>
+			<MultiInstanceParent></MultiInstanceParent>
+			<UserPagesCount>0</UserPagesCount>
+			<PagesCount>3</PagesCount>
+			<name>Controls</name>
+			<name>Node</name>
+			<name>Info</name>
+			<Children>0</Children>
+			<UserComponents>
+				<count>0</count>
+				<item_version>2</item_version>
+			</UserComponents>
+			<CacheID>Merge2</CacheID>
+		</item>
+		<item>
+			<Plugin_label>Transform3_2</Plugin_label>
+			<Plugin_script_name>Transform3_2</Plugin_script_name>
+			<Plugin_id>net.sf.openfx.TransformPlugin</Plugin_id>
+			<PythonModule></PythonModule>
+			<PythonModuleVersion>0</PythonModuleVersion>
+			<Plugin_major_version>1</Plugin_major_version>
+			<Plugin_minor_version>0</Plugin_minor_version>
+			<KnobsCount>7</KnobsCount>
+			<item>
+				<Name>translate</Name>
+				<Type>Double</Type>
+				<Dimension>2</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>3.28000000000000000e+02</Value>
+					<Default>0.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>-2.60000000000000000e+01</Value>
+					<Default>0.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>scale</Name>
+				<Type>Double</Type>
+				<Dimension>2</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>3.69999999999999996e-01</Value>
+					<Default>1.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>3.69999999999999996e-01</Value>
+					<Default>1.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>uniform</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>center</Name>
+				<Type>Double</Type>
+				<Dimension>2</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>2.71000000000000000e+02</Value>
+					<Default>5.00000000000000000e-01</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>2.71000000000000000e+02</Value>
+					<Default>5.00000000000000000e-01</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>transformCenterChanged</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>black_outside</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>userTextArea</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;/font&gt;</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<Inputs_map>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>
+					<first>Source</first>
+					<second>Read4</second>
+				</item>
+			</Inputs_map>
+			<KnobsAge>242</KnobsAge>
+			<MasterNode></MasterNode>
+			<HasRotoContext>0</HasRotoContext>
+			<HasTrackerContext>0</HasTrackerContext>
+			<MultiInstanceParent></MultiInstanceParent>
+			<UserPagesCount>0</UserPagesCount>
+			<PagesCount>3</PagesCount>
+			<name>Controls</name>
+			<name>Node</name>
+			<name>Info</name>
+			<Children>0</Children>
+			<UserComponents>
+				<count>0</count>
+				<item_version>2</item_version>
+			</UserComponents>
+			<CacheID>Transform3_2</CacheID>
+		</item>
+		<item>
+			<Plugin_label>Transform12</Plugin_label>
+			<Plugin_script_name>Transform12</Plugin_script_name>
+			<Plugin_id>net.sf.openfx.TransformPlugin</Plugin_id>
+			<PythonModule></PythonModule>
+			<PythonModuleVersion>0</PythonModuleVersion>
+			<Plugin_major_version>1</Plugin_major_version>
+			<Plugin_minor_version>0</Plugin_minor_version>
+			<KnobsCount>5</KnobsCount>
+			<item>
+				<Name>scale</Name>
+				<Type>Double</Type>
+				<Dimension>2</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>1</HasAnimation>
+					<Curve>
+						<KeyFrameSet>
+							<count>4</count>
+							<item_version>0</item_version>
+							<item>
+								<Time>6.50000000000000000e+01</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>2.85428571428571441e-02</RightDerivative>
+							</item>
+							<item>
+								<Time>1.00000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>2.85428571428571441e-02</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>5.20000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>-1.24875000000000003e-02</RightDerivative>
+							</item>
+							<item>
+								<Time>6.00000000000000000e+02</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>-1.24875000000000003e-02</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+						</KeyFrameSet>
+					</Curve>
+					<Value>1.00000000000000000e+00</Value>
+					<Default>1.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>1</HasAnimation>
+					<Curve>
+						<KeyFrameSet>
+							<count>4</count>
+							<item_version>0</item_version>
+							<item>
+								<Time>6.50000000000000000e+01</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>2.85428571428571441e-02</RightDerivative>
+							</item>
+							<item>
+								<Time>1.00000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>2.85428571428571441e-02</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+							<item>
+								<Time>5.20000000000000000e+02</Time>
+								<Value>1.00000000000000000e+00</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>0.00000000000000000e+00</LeftDerivative>
+								<RightDerivative>-1.24875000000000003e-02</RightDerivative>
+							</item>
+							<item>
+								<Time>6.00000000000000000e+02</Time>
+								<Value>1.00000000000000002e-03</Value>
+								<InterpolationMethod>1</InterpolationMethod>
+								<LeftDerivative>-1.24875000000000003e-02</LeftDerivative>
+								<RightDerivative>0.00000000000000000e+00</RightDerivative>
+							</item>
+						</KeyFrameSet>
+					</Curve>
+					<Value>1.00000000000000000e+00</Value>
+					<Default>1.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>uniform</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>center</Name>
+				<Type>Double</Type>
+				<Dimension>2</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>5.99000000000000000e+02</Value>
+					<Default>5.00000000000000000e-01</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>2.45000000000000000e+02</Value>
+					<Default>5.00000000000000000e-01</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>transformCenterChanged</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>userTextArea</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;/font&gt;</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<Inputs_map>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>
+					<first>Source</first>
+					<second>Transform3_2</second>
+				</item>
+			</Inputs_map>
+			<KnobsAge>23</KnobsAge>
+			<MasterNode></MasterNode>
+			<HasRotoContext>0</HasRotoContext>
+			<HasTrackerContext>0</HasTrackerContext>
+			<MultiInstanceParent></MultiInstanceParent>
+			<UserPagesCount>0</UserPagesCount>
+			<PagesCount>3</PagesCount>
+			<name>Controls</name>
+			<name>Node</name>
+			<name>Info</name>
+			<Children>0</Children>
+			<UserComponents>
+				<count>0</count>
+				<item_version>2</item_version>
+			</UserComponents>
+			<CacheID>Transform12</CacheID>
+		</item>
+		<item>
+			<Plugin_label>Write2</Plugin_label>
+			<Plugin_script_name>Write2</Plugin_script_name>
+			<Plugin_id>fr.inria.built-in.Write</Plugin_id>
+			<PythonModule></PythonModule>
+			<PythonModuleVersion>0</PythonModuleVersion>
+			<Plugin_major_version>1</Plugin_major_version>
+			<Plugin_minor_version>0</Plugin_minor_version>
+			<KnobsCount>27</KnobsCount>
+			<item>
+				<Name>encodingPluginChoice</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>Default</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>encodingPluginID</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>fr.inria.openfx.WriteFFmpeg</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>userTextArea</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(suscribete_banner.mp4)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>outputComponents</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>RGBA</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>NatronOfxParamProcessR</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>NatronOfxParamProcessG</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>NatronOfxParamProcessB</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>NatronOfxParamProcessA</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>filename</Name>
+				<Type>OutputFile</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>/natron_templates/suscribete/suscribete_banner.mp4</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>NatronParamFormatChoice</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>6</Value>
+					<Default>6</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>HD</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>ocioInputSpace</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>scene_linear</Value>
+					<Default>scene_linear</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>ocioOutputSpace</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>nuke_rec709</Value>
+					<Default>nuke_rec709</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>firstFrame</Name>
+				<Type>Int</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>lastFrame</Name>
+				<Type>Int</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>ParamExistingInstance</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>format</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>5</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>mp4</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>codec</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>40</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>libx264</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>codecShortName</Name>
+				<Type>String</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>libx264</Value>
+					<Default></Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<StringsAnimation>
+					<count>0</count>
+					<item_version>0</item_version>
+				</StringsAnimation>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>fps</Name>
+				<Type>Double</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>6.00000000000000000e+01</Value>
+					<Default>2.40000000000000000e+01</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>DNxHDCodecProfile</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>dnxhr444</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>HapFormat</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>hap</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>DNxHDEncodeVideoRange</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>video</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>x26xSpeed</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>4</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>ultrafast</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>qscale</Name>
+				<Type>Double</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>-1.00000000000000000e+00</Value>
+					<Default>-1.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>quality</Name>
+				<Type>Int</Type>
+				<Dimension>2</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>-1</Value>
+					<Default>-1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>-1</Value>
+					<Default>-1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>bitrateMbps</Name>
+				<Type>Double</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1.85000000000000000e+02</Value>
+					<Default>1.85000000000000000e+02</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
+				<Name>bitrateToleranceMbps</Name>
+				<Type>Double</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>4.62500000000000000e+01</Value>
+					<Default>0.00000000000000000e+00</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<Inputs_map>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>
+					<first>Source</first>
+					<second>Merge1</second>
+				</item>
+			</Inputs_map>
+			<KnobsAge>2</KnobsAge>
+			<MasterNode></MasterNode>
+			<HasRotoContext>0</HasRotoContext>
+			<HasTrackerContext>0</HasTrackerContext>
+			<MultiInstanceParent></MultiInstanceParent>
+			<UserPagesCount>0</UserPagesCount>
+			<PagesCount>3</PagesCount>
+			<name>Controls</name>
+			<name>Node</name>
+			<name>Info</name>
+			<Children>0</Children>
+			<UserComponents>
+				<count>0</count>
+				<item_version>2</item_version>
+			</UserComponents>
+			<CacheID>Write2</CacheID>
 		</item>
 	</NodesCollection>
 	<ProjectKnobsCount>4</ProjectKnobsCount>
@@ -11900,7 +13390,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>Sat May 29 22:59:12 2021</Value>
+			<Value>Wed Jun 2 17:37:45 2021</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -11913,7 +13403,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<UserKnob>0</UserKnob>
 	</item>
 	<AdditionalFormats class_id="17" tracking_level="0" version="0">
-		<count>6</count>
+		<count>7</count>
 		<item_version>3</item_version>
 		<item class_id="18" tracking_level="0" version="3">
 			<RectI class_id="19" tracking_level="0" version="0">
@@ -11975,13 +13465,23 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 			<Pixel_aspect_ratio>1.00000000000000000e+00</Pixel_aspect_ratio>
 			<Name></Name>
 		</item>
+		<item>
+			<RectI>
+				<Left>0</Left>
+				<Bottom>0</Bottom>
+				<Right>542</Right>
+				<Top>542</Top>
+			</RectI>
+			<Pixel_aspect_ratio>1.00000000000000000e+00</Pixel_aspect_ratio>
+			<Name></Name>
+		</item>
 	</AdditionalFormats>
-	<Timeline_current_time>396</Timeline_current_time>
+	<Timeline_current_time>235</Timeline_current_time>
 	<CreationDate>1621259908504</CreationDate>
 </Project>
 <ProjectGui class_id="20" tracking_level="0" version="12">
 	<NodesGui class_id="21" tracking_level="0" version="0">
-		<count>25</count>
+		<count>30</count>
 		<item_version>6</item_version>
 		<item class_id="22" tracking_level="0" version="6">
 			<Name>Viewer1</Name>
@@ -11999,8 +13499,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Rectangle1</Name>
-			<X_position>1.21341480692267282e+03</X_position>
-			<Y_position>1.49206147012888039e+02</Y_position>
+			<X_position>1.64221967429301458e+03</X_position>
+			<Y_position>4.24393242303954707e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>3.000076413e-01</r>
 			<g>5.000076294e-01</g>
@@ -12013,7 +13513,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Merge1</Name>
-			<X_position>1.02401549911722304e+03</X_position>
+			<X_position>1.00656866170987769e+03</X_position>
 			<Y_position>4.13393242303954707e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>3.000076413e-01</r>
@@ -12027,8 +13527,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Radial2</Name>
-			<X_position>1.02401549911722304e+03</X_position>
-			<Y_position>1.54352600868167769e+02</Y_position>
+			<X_position>1.00324345713355387e+03</X_position>
+			<Y_position>8.16504539253257917e+01</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>3.000076413e-01</r>
 			<g>5.000076294e-01</g>
@@ -12041,8 +13541,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Transform3</Name>
-			<X_position>1.02401549911722304e+03</X_position>
-			<Y_position>2.37352600868167769e+02</Y_position>
+			<X_position>1.00324345713355387e+03</X_position>
+			<Y_position>1.64650453925325792e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>6.999923587e-01</r>
 			<g>3.000076413e-01</g>
@@ -12055,8 +13555,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Glow2</Name>
-			<X_position>1.02401549911722304e+03</X_position>
-			<Y_position>3.31352600868167769e+02</Y_position>
+			<X_position>1.16965571916454155e+03</X_position>
+			<Y_position>1.64650453925325792e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>8.000000119e-01</r>
 			<g>5.000076294e-01</g>
@@ -12699,8 +14199,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>PulgarAbajo</Name>
-			<X_position>7.91996261686478078e+02</X_position>
-			<Y_position>1.51949087154987069e+02</Y_position>
+			<X_position>8.31472011113637222e+02</X_position>
+			<Y_position>4.82972702322919929e+01</Y_position>
 			<Preview_enabled>1</Preview_enabled>
 			<r>6.999923587e-01</r>
 			<g>6.999923587e-01</g>
@@ -12727,8 +14227,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Transform4</Name>
-			<X_position>8.03996261686478078e+02</X_position>
-			<Y_position>2.92209295395650543e+02</Y_position>
+			<X_position>8.71455511460938396e+02</X_position>
+			<Y_position>2.14945905348437890e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>6.999923587e-01</r>
 			<g>3.000076413e-01</g>
@@ -12741,8 +14241,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Rectangle2</Name>
-			<X_position>1.24796858248613603e+03</X_position>
-			<Y_position>5.81128341556182932e+02</Y_position>
+			<X_position>5.96257904797336437e+02</X_position>
+			<Y_position>1.32860970996354524e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>3.000076413e-01</r>
 			<g>5.000076294e-01</g>
@@ -12755,8 +14255,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Transform5</Name>
-			<X_position>1.09420428122872340e+03</X_position>
-			<Y_position>5.81128341556182932e+02</Y_position>
+			<X_position>7.91236143798675016e+02</X_position>
+			<Y_position>2.78375172802320549e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>6.999923587e-01</r>
 			<g>3.000076413e-01</g>
@@ -12770,7 +14270,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item>
 			<Name>Rectangle3</Name>
 			<X_position>5.95487040783287625e+02</X_position>
-			<Y_position>2.48337831353087239e+02</Y_position>
+			<Y_position>2.34090114099590124e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>3.000076413e-01</r>
 			<g>5.000076294e-01</g>
@@ -12783,8 +14283,8 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Transform7</Name>
-			<X_position>1.21341480692267282e+03</X_position>
-			<Y_position>2.61830550449390273e+02</Y_position>
+			<X_position>1.45527129643999228e+03</X_position>
+			<Y_position>4.24393242303954707e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>6.999923587e-01</r>
 			<g>3.000076413e-01</g>
@@ -12798,7 +14298,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item>
 			<Name>Transform8</Name>
 			<X_position>5.95487040783287625e+02</X_position>
-			<Y_position>3.10337831353087267e+02</Y_position>
+			<Y_position>3.14331697769059815e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>6.999923587e-01</r>
 			<g>3.000076413e-01</g>
@@ -12868,7 +14368,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item>
 			<Name>Transform6</Name>
 			<X_position>5.13148468629360195e+02</X_position>
-			<Y_position>6.41635830512979737e+02</Y_position>
+			<Y_position>6.25797732481238882e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>6.999923587e-01</r>
 			<g>3.000076413e-01</g>
@@ -12937,8 +14437,78 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		</item>
 		<item>
 			<Name>Write1</Name>
-			<X_position>1.30854043601396029e+03</X_position>
-			<Y_position>4.94316729064659626e+02</Y_position>
+			<X_position>1.52125253724120353e+03</X_position>
+			<Y_position>5.00793222901321542e+02</Y_position>
+			<Preview_enabled>0</Preview_enabled>
+			<r>7.499961853e-01</r>
+			<g>7.499961853e-01</g>
+			<b>0.000000000e+00</b>
+			<Selected>0</Selected>
+			<Width>1.04000000000000000e+02</Width>
+			<Height>7.80000000000000000e+01</Height>
+			<HasOverlayColor>0</HasOverlayColor>
+			<Children>0</Children>
+		</item>
+		<item>
+			<Name>Read4</Name>
+			<X_position>1.38134079191399815e+03</X_position>
+			<Y_position>1.22035746654056254e+02</Y_position>
+			<Preview_enabled>1</Preview_enabled>
+			<r>6.999923587e-01</r>
+			<g>6.999923587e-01</g>
+			<b>6.999923587e-01</b>
+			<Selected>0</Selected>
+			<Width>1.28000000000000000e+02</Width>
+			<Height>7.80000000000000000e+01</Height>
+			<HasOverlayColor>0</HasOverlayColor>
+			<Children>0</Children>
+		</item>
+		<item>
+			<Name>Merge2</Name>
+			<X_position>1.00656866170987769e+03</X_position>
+			<Y_position>2.80685871883099253e+02</Y_position>
+			<Preview_enabled>0</Preview_enabled>
+			<r>3.000076413e-01</r>
+			<g>3.700007498e-01</g>
+			<b>7.759975791e-01</b>
+			<Selected>0</Selected>
+			<Width>1.04000000000000000e+02</Width>
+			<Height>5.50000000000000000e+01</Height>
+			<HasOverlayColor>0</HasOverlayColor>
+			<Children>0</Children>
+		</item>
+		<item>
+			<Name>Transform3_2</Name>
+			<X_position>1.36822310248674921e+03</X_position>
+			<Y_position>2.91685871883099253e+02</Y_position>
+			<Preview_enabled>0</Preview_enabled>
+			<r>6.999923587e-01</r>
+			<g>3.000076413e-01</g>
+			<b>1.000076309e-01</b>
+			<Selected>0</Selected>
+			<Width>1.04000000000000000e+02</Width>
+			<Height>3.20000000000000000e+01</Height>
+			<HasOverlayColor>0</HasOverlayColor>
+			<Children>0</Children>
+		</item>
+		<item>
+			<Name>Transform12</Name>
+			<X_position>1.22133924835272637e+03</X_position>
+			<Y_position>2.91685871883099253e+02</Y_position>
+			<Preview_enabled>0</Preview_enabled>
+			<r>6.999923587e-01</r>
+			<g>3.000076413e-01</g>
+			<b>1.000076309e-01</b>
+			<Selected>0</Selected>
+			<Width>1.04000000000000000e+02</Width>
+			<Height>3.20000000000000000e+01</Height>
+			<HasOverlayColor>0</HasOverlayColor>
+			<Children>0</Children>
+		</item>
+		<item>
+			<Name>Write2</Name>
+			<X_position>1.51098599048877463e+03</X_position>
+			<Y_position>5.93249469667075573e+02</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>7.499961853e-01</r>
 			<g>7.499961853e-01</g>
@@ -12959,7 +14529,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<Orientation>1</Orientation>
 				<ChildIsSplitter>1</ChildIsSplitter>
 				<Child object_id="_1">
-					<Sizes>678 300</Sizes>
+					<Sizes>489 489</Sizes>
 					<Orientation>2</Orientation>
 					<ChildIsSplitter>0</ChildIsSplitter>
 					<Child class_id="26" tracking_level="1" version="5" object_id="_2">
@@ -12975,12 +14545,11 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 					<ChildIsSplitter>0</ChildIsSplitter>
 					<Child object_id="_3">
 						<Tabs>
-							<count>4</count>
+							<count>3</count>
 							<item_version>0</item_version>
 							<item>nodeGraph</item>
 							<item>curveEditor</item>
 							<item>dopeSheetEditor</item>
-							<item>progress</item>
 						</Tabs>
 						<Index>0</Index>
 						<Name>pane3</Name>
@@ -13012,9 +14581,9 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item class_id="29" tracking_level="0" version="0">
 			<first>Viewer1</first>
 			<second class_id="30" tracking_level="0" version="14">
-				<zoomLeft>3.59057659603467300e+02</zoomLeft>
-				<zoomBottom>6.69286734500379481e+01</zoomBottom>
-				<zoomFactor>1.13615118117102698e+00</zoomFactor>
+				<zoomLeft>-1.01689655172413745e+03</zoomLeft>
+				<zoomBottom>-2.16000000000000227e+01</zoomBottom>
+				<zoomFactor>3.09829059829059894e-01</zoomFactor>
 				<UserRoIEnabled>0</UserRoIEnabled>
 				<UserRoI class_id="31" tracking_level="0" version="0">
 					<Left>4.80000000000000000e+02</Left>
@@ -13032,7 +14601,7 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 				<Channels>RGB</Channels>
 				<RenderScaleActivated>0</RenderScaleActivated>
 				<MipMapLevel>0</MipMapLevel>
-				<ZoomOrPanSinceFit>1</ZoomOrPanSinceFit>
+				<ZoomOrPanSinceFit>0</ZoomOrPanSinceFit>
 				<CompositingOP>0</CompositingOP>
 				<LeftBound>0</LeftBound>
 				<RightBound>600</RightBound>
@@ -13058,16 +14627,18 @@ As the blur sizes of the bloom node can get very big, this may lead to a very bi
 		<item_version>0</item_version>
 	</Histograms>
 	<OpenedPanels>
-		<count>8</count>
+		<count>10</count>
 		<item_version>0</item_version>
+		<item>Read4</item>
+		<item>Transform6</item>
 		<item>Write1</item>
-		<item>Rectangle2</item>
-		<item>Transform5</item>
+		<item>Write2</item>
+		<item>Text1</item>
+		<item>Transform4</item>
 		<item>Transform1_2</item>
-		<item>Merge1</item>
-		<item>Rectangle1</item>
-		<item>Rectangle3</item>
-		<item>Natron_Project_Settings_Panel</item>
+		<item>Transform1</item>
+		<item>Transform3</item>
+		<item>Transform12</item>
 	</OpenedPanels>
 	<ScriptEditorInput></ScriptEditorInput>
 	<NumPyPanels>0</NumPyPanels>
